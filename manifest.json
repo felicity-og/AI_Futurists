@@ -1,13 +1,13 @@
 {
-  "name": " SPOILER BLOCKER",
-  "version": "0.1",
+  "name": "replaceWords Extension",
+  "version": "0.0.1",
   "description": "Detecting and filtering (replacing, bluring and deleting) specified keywords or phrases related to tv shows and/or movies",
   "manifest_version": 3,
   "background":{
     "service_worker": "serviceWorker.js"
   },
   "host_permissions": ["<all_urls>"],
-  "permissions": ["scripting", "storage"],
+  "permissions": ["scripting", "storage", "tabs"],
   "options_ui":{
     "page": "opt.html"
   }

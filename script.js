@@ -10,9 +10,9 @@ function replacePageWords(keywordsArray){
     replaceWord(keywordsArray[i]);
   }
 }
-const replaceWord = (obj) => {
+replaceWord = (obj) => {
   console.log('replace checks for obj', obj);
-  const elementsToReplace = document.querySelectorAll('h1, h2, h3, h4, h5, div, p, a, caption, span, td');
+  const elementsToReplace = document.querySelectorAll('h1, h2, h3, h4, h5, p, a, caption, span, td');
 
   elementsToReplace.forEach(element => {
     const lowerCaseText = element.innerText.toLowerCase();
@@ -31,7 +31,7 @@ const replaceWord = (obj) => {
         case '2':
           // Blur
           element.style.color = 'transparent';
-          element.style.textShadow = '0 0 100px #ff0000';
+          element.style.textShadow = '0 0 8px rgba(0,0,0,0.5)';
           break;
         default:
           break;
