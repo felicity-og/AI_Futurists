@@ -1,4 +1,4 @@
-## MVP (Minimum Marketable Product)
+## MMP (Minimum Marketable Product)
 The MMP for the Spoiler Blocker extension is a functional prototype including the basic features, content replacement, customer user settings and keyword filtering.
 (see pdf for above presentation of the prototype below).
 
