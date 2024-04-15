@@ -8,6 +8,8 @@
   }
 </style>
 <body>
+  <a class="indicator"
+  href="http://127.0.0.1:5000/" target="_blank">Sentiment analysis</a>
 
   <div class="keywords-holder">
     <div class="keyword-row">
@@ -28,6 +30,7 @@
         <label>Replace With</label>
         <input type="text" value="" placeholder="Replacement word..."/>
       </div>
+      
     </div>
   </div>
 
@@ -35,11 +38,10 @@
     <button class="add-keyword">Add Another Keyword</button>
   </div>
 
-
-
   <div id="status"></div>
   <button id="save">Save</button>
 
   <script src="opt.js"></script>
+  <script src="{{url_for('static', filename='somejavascriptfile.js')}}"></script>
 </body>
 </html>

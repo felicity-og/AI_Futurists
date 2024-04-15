@@ -1,7 +1,7 @@
 {
-  "name": "replaceWords Extension",
+  "name": "Spoilers blocker",
   "version": "0.0.1",
-  "description": "Detecting and filtering (replacing, bluring and deleting) specified keywords or phrases related to tv shows and/or movies",
+  "description": "Detecting and bluring specified keywords related to tv shows and/or movies",
   "manifest_version": 3,
   "background":{
     "service_worker": "serviceWorker.js"
