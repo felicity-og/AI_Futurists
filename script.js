@@ -26,7 +26,7 @@ replaceWord = (obj) => {
           break;
         case '1':
           // Replace
-          element = element.getElementById('myImage').src="Spoiler-alert-news-feature.jpg";
+          element.innerHTML = element.innerHTML.replace(new RegExp(obj.keyword, 'gi'), obj.replace);
           break;
         case '2':
           // Blur
